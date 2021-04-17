@@ -1,0 +1,50 @@
+.heading{
+     &_primary-header{
+     font-family:$font-family;
+     color:$color-text-main;
+     font-size:$font-size-header;
+     text-transform:capitalize;
+        animation-name: moveLTR;
+        animation-duration:2s;
+        animation-delay:0.30s;
+        animation-timing-function:ease-out;
+&:hover{-moz-transform: scale(1.1);
+-webkit-transform: scale(1.1);
+-o-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1);
+
+text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5, 6px 3px 4px rgba(206,89,55,0.83);
+color: #FFFFFF;
+      
+      }
+
+        }
+
+ &_paragraph{
+      font-family:$font-family;
+      color:$color-text-secondery;
+      font-size:$font-size-secondery;
+      line-height:$line-height;
+      animation:moveRTL 1s ease-out;
+
+            }
+      }
+.secondery-heading{
+      
+    font-family:$font-family;
+    color:$color-text-main;
+    font-size:$font-size-headerb;
+position:relative;
+
+  animation:moveb 1s ease-out;
+}
+
+.header-dark {
+     color:$color-white;
+     font-size:$font-size-headerb;
+            }
+.paragraph_dark{
+      color:$color-white;
+
+             }

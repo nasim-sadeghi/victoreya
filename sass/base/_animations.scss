@@ -1,0 +1,41 @@
+ 
+    @keyframes moveRTL{
+        0%{
+        opacity:0;
+        transform: translateX(-140px);
+    }
+        80%{transform: translateX(10px);
+        }
+    
+        100%{
+        opacity: 1;
+        transform: translateX(0);
+    }}
+    @keyframes moveLTR{
+        0%{
+        opacity:0;
+        transform:translateX(140px);
+         scale:(1rem);
+
+    }
+        80%{
+        transform:translateX(10px);
+        }
+        100%{
+        opacity:1;
+        transform:translateX(-10);
+    }}
+    @keyframes moveb {
+        0%{
+        opacity:0;
+        transform:translateX(140px);
+         scale:(1rem);
+
+    }
+        80%{
+        transform:translateX(10px);
+        }
+        100%{
+        opacity:1;
+        transform:translateX(-10);
+    }}

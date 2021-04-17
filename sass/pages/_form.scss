@@ -1,0 +1,38 @@
+.Email input[type=text] {
+
+  font-size:$font-size-card;
+  border: none;
+}
+
+.search-container .button {
+  float: right;
+
+  background:$color-primary;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+
+  .search-container input{
+    box-sizing: border-box;
+    background:$color-serch;
+  width:30rem;
+  height:3rem;
+  border: .10rem solid $color-prey;
+
+  &:hover{
+    box-shadow:2px 1px 3px 3px, 1px 2px 3px 1px $color-primary-light inset;
+  }
+  }
+
+
+::placeholder {
+  color: $color-prey;
+  font-size:$font-size-secondery;
+  text-align:center;
+ letter-spacing: 2px;
+}
+ .search-container {display:flex;
+ justify-content:center;
+}
